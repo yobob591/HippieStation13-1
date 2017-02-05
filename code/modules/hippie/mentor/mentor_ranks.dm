@@ -40,6 +40,6 @@
 	var/msg = "mentors Built:\n"
 	for(var/ckey in mentor_datums)
 		var/datum/mentors/D = mentor_datums[ckey]
-		msg += "\t[ckey] - [D.rank.name]\n"
+		msg += "\t[ckey] - mentor\n"
 	testing(msg)
 	#endif
